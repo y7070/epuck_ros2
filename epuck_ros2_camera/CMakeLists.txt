@@ -31,6 +31,10 @@ if(NOT AVOID_EPUCK_CAMERA_BUILD)
     /opt/vc/lib/libmmal_util.so
     /opt/vc/lib/libmmal_vc_client.so
     /opt/vc/lib/libvchostif.a
+    /opt/vc/lib/libvchiq_arm.so
+    /opt/vc/lib/libmmal_components.so
+    /opt/vc/lib/libvcsm.so
+    /opt/vc/lib/libcontainers.so
   )
 
   add_executable(camera
